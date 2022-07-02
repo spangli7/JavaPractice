@@ -9,7 +9,7 @@ public class Data {
         this.localTime = localTime;
         this.licensePlateNumber = licensePlateNumber;
     }
-    
+
     public LocalTime getLocalTime() {
         return localTime;
     }
