@@ -7,6 +7,9 @@ repositories{
 }
 
 dependencies {
+    implementation 'mysql:mysql-connector-java:8.0.20'
+    implementation group: 'c3p0', name: 'c3p0', version: '0.9.0.4'
+
     testImplementation 'org.codehaus.groovy:groovy-all:3.0.12'
     testImplementation 'org.spockframework:spock-core:2.0-groovy-3.0'
 }
