@@ -1,7 +1,7 @@
 package exams.oo_practice.bath;
 
-import common.GeneralFileReader;
-import common.GeneralFileWriter;
+import common.file.GeneralFileReader;
+import common.file.GeneralFileWriter;
 
 import java.time.LocalTime;
 import java.util.List;

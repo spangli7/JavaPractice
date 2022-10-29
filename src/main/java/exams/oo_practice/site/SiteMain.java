@@ -1,6 +1,6 @@
 package exams.oo_practice.site;
 
-import common.GeneralFileReader;
+import common.file.GeneralFileReader;
 
 import java.util.List;
 

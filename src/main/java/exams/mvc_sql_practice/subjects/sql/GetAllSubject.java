@@ -1,5 +1,6 @@
 package exams.mvc_sql_practice.subjects.sql;
 
+import common.sql.ConnectionPool;
 import exams.mvc_sql_practice.subjects.modell.Subject;
 
 import java.sql.Connection;

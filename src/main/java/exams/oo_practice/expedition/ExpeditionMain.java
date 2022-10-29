@@ -1,6 +1,6 @@
 package exams.oo_practice.expedition;
 
-import common.GeneralFileReader;
+import common.file.GeneralFileReader;
 
 import java.util.List;
 import java.util.Map;

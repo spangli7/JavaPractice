@@ -1,4 +1,4 @@
-package exams.mvc_sql_practice.subjects.sql;
+package common.sql;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 

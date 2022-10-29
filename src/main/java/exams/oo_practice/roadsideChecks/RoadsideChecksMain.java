@@ -1,6 +1,6 @@
 package exams.oo_practice.roadsideChecks;
-import common.GeneralFileReader;
-import common.GeneralFileWriter;
+import common.file.GeneralFileReader;
+import common.file.GeneralFileWriter;
 
 import java.util.List;
 import java.util.Scanner;
