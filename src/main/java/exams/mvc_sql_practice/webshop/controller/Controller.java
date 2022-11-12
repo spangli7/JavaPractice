@@ -1,15 +1,9 @@
 package exams.mvc_sql_practice.webshop.controller;
 
 
-import exams.mvc_sql_practice.webshop.dao.OrderDao;
-import exams.mvc_sql_practice.webshop.dao.ProductDao;
-import exams.mvc_sql_practice.webshop.dao.UserDao;
-import exams.mvc_sql_practice.webshop.dao.mock.InMemoryOrderDao;
-import exams.mvc_sql_practice.webshop.dao.mock.InMemoryProductDao;
-import exams.mvc_sql_practice.webshop.dao.mock.InMemoryUserDao;
-import exams.mvc_sql_practice.webshop.model.Order;
-import exams.mvc_sql_practice.webshop.model.Product;
-import exams.mvc_sql_practice.webshop.model.User;
+import exams.mvc_sql_practice.webshop.dao.*;
+import exams.mvc_sql_practice.webshop.dao.sql.*;
+import exams.mvc_sql_practice.webshop.model.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -19,9 +13,9 @@ import java.util.Map;
 
 public class Controller {
 
-    OrderDao orderDao = new InMemoryOrderDao();
-    ProductDao productDao = new InMemoryProductDao();
-    UserDao userDao = new InMemoryUserDao();
+    OrderDao orderDao = new GetOrders();
+    ProductDao productDao = new GetProducts();
+    UserDao userDao = new GetUsers();
 
     Map<Integer, User> users;
     Map<Integer, Product> products;
